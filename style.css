@@ -1,0 +1,36 @@
+.formulario{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    /* height: 50px; */
+}
+#entrada{
+    box-shadow: 2px 2px 2px gray;
+    height: 30px;
+}
+.submit{
+    background-color: green;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.Tabla{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+table,th,td{
+    border:1px solid black;
+    
+}
+table{
+    background-color: green;
+}
+th,td{
+    background-color: white;
+    font-size: 25px;
+    font-style: italic;
+}
