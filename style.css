@@ -1,36 +1,34 @@
-.formulario{
-    display: flex;
+.container {
     width: fit-content;
     margin: auto;
-    /* height: 50px; */
-}
-#entrada{
-    box-shadow: 2px 2px 2px gray;
-    height: 30px;
-}
-.submit{
-    background-color: green;
-    height: 30px;
-    width: 100px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-}
-.Tabla{
-    width: fit-content;
-    margin: auto;
-    margin-top: 30px;
+    margin-top: 50px
 }
 
-table,th,td{
-    border:1px solid black;
-    
+th,
+td {
+    border-style: solid;
+    border-color: gray;
 }
-table{
-    background-color: green;
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
 }
-th,td{
-    background-color: white;
-    font-size: 25px;
-    font-style: italic;
+
+.column {
+    flex-direction: column;
+}
+
+#botones {
+    margin-top: 25px;
+}
+
+#botones * {
+    background-color: #7b7b7b;
+    color: white;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 25px;
 }

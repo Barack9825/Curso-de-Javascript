@@ -1,55 +1,46 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <form class="formulario">
-            <input 
-            type="text"
-            id="entrada">
-            <input 
-            class="submit"
-            type="submit"
-            value="ingresar"
-            >
-            
-        </form>
-        <table class="Tabla">
-            <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-            </tr>
-            <tr>
-                <td class="nombre">Palito de Helado de agua</td>
-                <td class="precio">$0.6 USD</td>
-            </tr>
-            <tr>
-                <td class="nombre">Palito de Helado de crema</td>
-                <td class="precio">$1 USD</td>
-            </tr>
-            <tr>
-                <td class="nombre">Palito de Helado marca Heladix</td>
-                <td class="precio">$1.6 USD</td>
-            </tr>
-            <tr>
-                <td class="nombre">Palito de Helado marca Heladovich</td>
-                <td class="precio">$1.7 USD</td>
-            </tr>
-            <tr>
-                <td class="nombre">Palito de Helado marca Helardo</td>
-                <td class="precio">$1.8 USD</td>
-            </tr>
-            <tr>
-                <td class="nombre">Potecito de Helado con confites</td>
-                <td class="precio">$2.9 USD</td>
-            </tr>
-            <tr>
-                <td class="nombre">Pote de 1/4 Kg</td>
-                <td class="precio">$2.9 USD</td>
-            </tr>
-            
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <div class='container'>
+        <h1>Registro de asistencia</h1>
+    </div>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Alumno</th>
+                    <th>Calculo</th>
+                    <th>Electronica</th>
+                    <th>Control</th>
+                    <th>Fisica</th>
+                    <th>Programacion</th>
+                    <th>Ingles</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
         </table>
-        <script src="App.js"></script>
-    </body>
+    </div>
+    <div class="container">
+        <form id="formulario" class="flex column">
+            <div class="flex">
+                <div id ="Alumnos"></div>
+                <div id="Asignaturas"></div>
+            </div>
+            <div id="botones">
+                <input type="submit" value="Registrar">
+                <input type="button" id="dia" value="Cerrar dia" readonly="true">
+            </div>
+        </form>
+    </div>
+    <script src='App.js'></script>
+</body>
+
 </html>
